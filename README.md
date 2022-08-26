@@ -19,6 +19,8 @@ Then execute the script 'python3 bssid.py'
 
 The script will first validate the Central credentials and generate/refresh an API key. It will then query the BSSID info for each AP and output AP Name, ESSID Name and BSSID. This will be shown on the screen as the script executes and written to a file called 'bssid_data.csv'.
 
+Troubleshooting: If zero resutls are returned, verify the ESSID name in creds.py and that is matches exactly to the ESSID name in Central.
+
 Please feel free to modify or provide any comments or feedback.
 
 Thank you - Will Smith
