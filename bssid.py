@@ -15,7 +15,7 @@ essid_filter = creds.essid['essid_filter']
 
 #This function will generate a list of all BSSIDs
 def bssid():
-    bssid_data = open("bssid_data.txt", "w")
+    bssid_data = open("bssid_data.csv", "w")
     offset = 0
     while True:
         bssid_response = central.command(apiMethod="GET", apiPath="/monitoring/v2/bssids", apiParams={"limit": 1000, "offset": offset})
