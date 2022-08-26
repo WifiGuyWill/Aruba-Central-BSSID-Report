@@ -1,5 +1,5 @@
 # Aruba-Central-BSSID-Report
-Script to capture the current list of BSSIDs from Aruba Central and create a corresponding CSV file
+Script to capture the current list of BSSIDs from APs in Aruba Central and create a corresponding CSV file
 ```
 % python3 bssid.py
 2022-08-26 12:18:04 - ARUBA_BASE - INFO - Loaded token from storage from file: 
