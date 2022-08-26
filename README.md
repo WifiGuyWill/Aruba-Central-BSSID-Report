@@ -17,7 +17,7 @@ Edit creds.py and enter the credentials for Aruba Central.
 Also enter the wireless ESSID name you want to filter on.
 Then execute the script 'python3 bssid.py'
 
-The script will first generate a valid API key, then create a list of every active AP in Central. It will then query the BSSID info for each AP and output AP Name, ESSID Name and BSSID MAC detail. This will be shown on the screen as the script executes and written to a file called 'bssid_data.csv'.
+The script will first validate the Central credentials and generate/refresh an API key. It will then query the BSSID info for each AP and output AP Name, ESSID Name and BSSID. This will be shown on the screen as the script executes and written to a file called 'bssid_data.csv'.
 
 Please feel free to modify or provide any comments or feedback.
 
