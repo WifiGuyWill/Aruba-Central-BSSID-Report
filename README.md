@@ -9,7 +9,7 @@ Office-AP,Wifi-Guy,d0:d4:f0:ee:2c:21
 Bedroom-AP,Wifi-Guy,d0:d4:f0:ee:2e:b0
 Bedroom-AP,Wifi-Guy,d0:d4:f0:ee:2e:a0
 --- Finished ---
-NOTE: Output saved to bssid_data.txt
+NOTE: Output saved to bssid_data.csv
 ```
 
 Download the repo, make sure Python is installed.

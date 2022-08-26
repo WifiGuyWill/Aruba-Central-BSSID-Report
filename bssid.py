@@ -36,4 +36,4 @@ if __name__ == "__main__":
     print("--- Starting ---")
     bssid()
     print("--- Finished ---")
-    print("NOTE: Output saved to bssid_data.txt")
+    print("NOTE: Output saved to bssid_data.csv")
