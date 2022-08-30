@@ -9,7 +9,6 @@ from pycentral.base import ArubaCentralBase
 import creds as creds
 
 central_info = creds.central_info
-central_info = central_info = creds.central_info
 central = ArubaCentralBase(central_info=central_info, ssl_verify=True)
 essid_filter = creds.essid['essid_filter']
 
